@@ -1,0 +1,35 @@
+.heading {
+    margin-bottom: 40px;
+  }
+  
+  .heading:after {
+    content: " ";
+    display: block;
+    width: 100px;
+    height: 1px;
+    margin: 20px 0 20px;
+    background: #555;
+  }
+
+.rounded-circle-div {
+    width: 429px;
+    height: auto;
+    border-radius: 50% !important;
+    overflow: hidden;
+  }
+  
+  .rounded-circle-img {
+    width: 550px;
+    height: auto;
+  }
+  
+  .centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.lead {
+    font-size: 1.4375rem;
+    font-weight: 300;
+  }

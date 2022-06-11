@@ -1,0 +1,49 @@
+.navbar {
+    padding: 0.5rem 1rem;
+  }
+
+nav.navbar {
+    background: #fff;
+    padding-top: 0;
+    padding-bottom: 0;
+    -webkit-box-shadow: 0 1px 0 #ddd;
+    box-shadow: 0 1px 0 #ddd;
+  }
+  
+  nav.navbar a.nav-link {
+    position: relative;
+    top: 1px;
+    color: #777;
+    font-style: italic;
+    border-bottom: 1px solid transparent;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  
+  nav.navbar a.nav-link.active,
+  nav.navbar a.nav-link:hover,
+  nav.navbar a.nav-link:focus {
+    color: #333;
+  }
+  
+  nav.navbar a.nav-link.active {
+    border-bottom: 1px solid #333;
+  }
+  
+  nav.navbar .navbar-brand {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  
+.sticky {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #fff;
+    z-index: 999;
+  }
+
+  .ml-auto{
+      margin-left:auto;
+  }

@@ -1,0 +1,60 @@
+
+.contact-form {
+    margin-bottom: 40px;
+  }
+  
+  p.social {
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  p.social a {
+    margin: 15px;
+    color: #fff;
+    display: inline-block;
+    width: 38px;
+    height: 38px;
+    border-radius: 19px;
+    line-height: 38px;
+    font-size: 15px;
+    text-align: center;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    vertical-align: bottom;
+  }
+  
+  p.social a i {
+    vertical-align: bottom;
+    line-height: 38px;
+  }
+  
+  p.social a.facebook {
+    background-color: #ccc;
+  }
+  
+  p.social a.gplus {
+    background-color: #ccd;
+  }
+  
+  p.social a.twitter {
+    background-color: #aaa;
+  }
+  
+  p.social a.instagram {
+    background-color: #999;
+  }
+  
+  p.social a.email {
+    background-color: #666;
+  }
+  
+  input[type=submit].btn-block {
+    width: 100%;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
